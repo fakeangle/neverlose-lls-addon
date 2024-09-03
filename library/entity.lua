@@ -504,7 +504,7 @@ function ent:get_resource() end
 ---
 ---Returns a table of pointers to the players that are currently spectating the specified player.
 ---
----@return table
+---@return { [number]: ent }
 ---@nodiscard
 ---
 ---[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_spectators)
