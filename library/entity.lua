@@ -639,7 +639,7 @@ function entity.get_local_player() end
 ---@param enemies_only? boolean # If `true` then only enemies will be included
 ---@param include_dormant? boolean # If `true` then dormant players will be included
 ---@param callback? function # A callback with an entity pointer as the argument
----@return table players
+---@return { [number]: ent } players
 ---@nodiscard
 ---
 ---[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_players)
@@ -651,7 +651,7 @@ function entity.get_players(enemies_only, include_dormant, callback) end
 ---@param class? number|string # Either a name or an ID of the needed class. Pass `nil` to get every entity.
 ---@param include_dormant? boolean # If `true` then dormant players will be included
 ---@param callback? function # A callback with an entity pointer as the argument
----@return table entities
+---@return { [number]: ent } entities
 ---@nodiscard
 ---
 ---[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_entities)
