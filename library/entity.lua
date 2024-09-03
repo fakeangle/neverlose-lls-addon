@@ -333,7 +333,7 @@ function ent:get_angles() end
 ---
 ---Returns a table containing `current` and `old` simulation time values.
 ---
----@return table
+---@return { old: number, current: number }
 ---@nodiscard
 ---
 ---[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_simulation_time)
