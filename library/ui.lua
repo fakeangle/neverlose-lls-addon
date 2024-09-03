@@ -216,6 +216,18 @@ function menu_item:create() end
 ---[View documents](https://lua.neverlose.cc/documentation/variables/ui#parent)
 function menu_item:parent() end
 
+---
+---Exports the serialized value of `menu_item` and its descendants, if any.
+---
+--- @return string
+function menu_item:export() end
+
+---
+---Imports serialized values to the `menu_item` and its descendants, from a given serialized string.
+---
+---@param value string
+function menu_item:import(value) end
+
 ---@class menu_group
 local menu_group = {}
 
@@ -359,6 +371,18 @@ function menu_group:label(text) end
 ---
 ---[View documents](https://lua.neverlose.cc/documentation/variables/ui#texture)
 function menu_group:texture(texture, size, color, mode, rounding) end
+
+---
+---Exports the serialized value of `menu_group` and its descendants, if any.
+---
+--- @return string
+function menu_group:export() end
+
+---
+---Imports serialized values to the `menu_group` and its descendants, from a given serialized string.
+---
+---@param value string
+function menu_group:import(value) end
 
 ---@class ui
 ui = {}
