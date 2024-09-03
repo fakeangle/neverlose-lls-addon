@@ -1,0 +1,234 @@
+---@meta events
+
+---
+---ToDo: Implement each event with their proper callback declaration
+---
+---@class event
+---@overload fun(callback: function, state: boolean)
+local event = {}
+
+---
+---List taken from [Allied Modders](https://wiki.alliedmods.net/Counter-Strike:_Global_Offensive_Events) and [Neverlose](https://lua.neverlose.cc/documentation/variables/events). Possibly outdated.
+---
+---@class events
+---@field render event
+---@field render_glow event
+---@field override_view event
+---@field createmove event
+---@field createmove_run event
+---@field aim_fire event
+---@field aim_ack event
+---@field bullet_fire event
+---@field console_input event
+---@field draw_model event
+---@field level_init event
+---@field pre_render event
+---@field post_render event
+---@field net_update_start event
+---@field net_update_end event
+---@field config_state event
+---@field mouse_input event
+---@field shutdown event
+---@field pre_update_clientside_animation event
+---@field post_update_clientside_animation event
+---@field grenade_override_view event
+---@field grenade_warning event
+---@field grenade_prediction event
+---@field localplayer_transparency event
+---@field voice_message event
+---@field player_death event
+---@field other_death event
+---@field player_hurt event
+---@field item_purchase event
+---@field bomb_beginplant event
+---@field bomb_abortplant event
+---@field bomb_planted event
+---@field bomb_defused event
+---@field bomb_exploded event
+---@field bomb_dropped event
+---@field bomb_pickup event
+---@field defuser_dropped event
+---@field defuser_pickup event
+---@field announce_phase_end event
+---@field cs_intermission event
+---@field bomb_begindefuse event
+---@field bomb_abortdefuse event
+---@field hostage_follows event
+---@field hostage_hurt event
+---@field hostage_killed event
+---@field hostage_rescued event
+---@field hostage_stops_following event
+---@field hostage_rescued_all event
+---@field hostage_call_for_help event
+---@field vip_escaped event
+---@field vip_killed event
+---@field player_radio event
+---@field bomb_beep event
+---@field weapon_fire event
+---@field weapon_fire_on_empty event
+---@field grenade_thrown event
+---@field weapon_outofammo event
+---@field weapon_reload event
+---@field weapon_zoom event
+---@field silencer_detach event
+---@field inspect_weapon event
+---@field weapon_zoom_rifle event
+---@field player_spawned event
+---@field item_pickup event
+---@field item_pickup_slerp event
+---@field item_pickup_failed event
+---@field item_remove event
+---@field ammo_pickup event
+---@field item_equip event
+---@field enter_buyzone event
+---@field exit_buyzone event
+---@field buytime_ended event
+---@field enter_bombzone event
+---@field exit_bombzone event
+---@field enter_rescue_zone event
+---@field exit_rescue_zone event
+---@field silencer_off event
+---@field silencer_on event
+---@field buymenu_open event
+---@field buymenu_close event
+---@field round_prestart event
+---@field round_poststart event
+---@field round_start event
+---@field round_end event
+---@field grenade_bounce event
+---@field hegrenade_detonate event
+---@field flashbang_detonate event
+---@field smokegrenade_detonate event
+---@field smokegrenade_expired event
+---@field molotov_detonate event
+---@field decoy_detonate event
+---@field decoy_started event
+---@field tagrenade_detonate event
+---@field inferno_startburn event
+---@field inferno_expire event
+---@field inferno_extinguish event
+---@field decoy_firing event
+---@field bullet_impact event
+---@field player_footstep event
+---@field player_jump event
+---@field player_blind event
+---@field player_falldamage event
+---@field door_moving event
+---@field round_freeze_end event
+---@field mb_input_lock_success event
+---@field mb_input_lock_cancel event
+---@field nav_blocked event
+---@field nav_generate event
+---@field player_stats_updated event
+---@field achievement_info_loaded event
+---@field spec_target_updated event
+---@field spec_mode_updated event
+---@field hltv_changed_mode event
+---@field cs_game_disconnected event
+---@field cs_win_panel_round event
+---@field cs_win_panel_match event
+---@field cs_match_end_restart event
+---@field cs_pre_restart event
+---@field show_freezepanel event
+---@field hide_freezepanel event
+---@field freezecam_started event
+---@field player_avenged_teammate event
+---@field achievement_earned event
+---@field achievement_earned_local event
+---@field item_found event
+---@field items_gifted event
+---@field repost_xbox_achievements event
+---@field match_end_conditions event
+---@field round_mvp event
+---@field player_decal event
+---@field teamplay_round_start event
+---@field show_survival_respawn_status event
+---@field client_disconnect event
+---@field gg_player_levelup event
+---@field ggtr_player_levelup event
+---@field assassination_target_killed event
+---@field ggprogressive_player_levelup event
+---@field gg_killed_enemy event
+---@field gg_final_weapon_achieved event
+---@field gg_bonus_grenade_achieved event
+---@field switch_team event
+---@field gg_leader event
+---@field gg_team_leader event
+---@field gg_player_impending_upgrade event
+---@field write_profile_data event
+---@field trial_time_expired event
+---@field update_matchmaking_stats event
+---@field player_reset_vote event
+---@field enable_restart_voting event
+---@field sfuievent event
+---@field start_vote event
+---@field player_given_c4 event
+---@field player_become_ghost event
+---@field gg_reset_round_start_sounds event
+---@field tr_player_flashbanged event
+---@field tr_mark_complete event
+---@field tr_mark_best_time event
+---@field tr_exit_hint_trigger event
+---@field bot_takeover event
+---@field tr_show_finish_msgbox event
+---@field tr_show_exit_msgbox event
+---@field reset_player_controls event
+---@field jointeam_failed event
+---@field teamchange_pending event
+---@field material_default_complete event
+---@field cs_prev_next_spectator event
+---@field cs_handle_ime_event event
+---@field nextlevel_changed event
+---@field seasoncoin_levelup event
+---@field tournament_reward event
+---@field start_halftime event
+---@field ammo_refill event
+---@field parachute_pickup event
+---@field parachute_deploy event
+---@field dronegun_attack event
+---@field drone_dispatched event
+---@field loot_crate_visible event
+---@field loot_crate_opened event
+---@field open_crate_instr event
+---@field smoke_beacon_paradrop event
+---@field survival_paradrop_spawn event
+---@field survival_paradrop_break event
+---@field drone_cargo_detached event
+---@field drone_above_roof event
+---@field choppers_incoming_warning event
+---@field firstbombs_incoming_warning event
+---@field dz_item_interaction event
+---@field snowball_hit_player_face event
+---@field survival_teammate_respawn event
+---@field survival_no_respawns_warning event
+---@field survival_no_respawns_final event
+---@field player_ping event
+---@field player_ping_stop event
+---@field guardian_wave_restart event
+events = {}
+
+---
+---Sets the callback for the specified event. The registered function will be called every time the specified event occurs.
+---
+---@param callback function # Lua function to call
+---
+---[View documents](https://lua.neverlose.cc/documentation/variables/events#set)
+function event:set(callback) end
+
+---
+---Unsets the callback that was set via the `:set` function from the specified event.
+---
+---@param callback function # Lua function that was passed to the `:set` function
+---
+---[View documents](https://lua.neverlose.cc/documentation/variables/events#unset)
+function event:unset(callback) end
+
+---
+---Fires the specified event.
+---
+---@param ... any # Arguments to be passed by the callback
+---
+---[View documents](https://lua.neverlose.cc/documentation/variables/events#call)
+function event:call(...) end
+
+return events
