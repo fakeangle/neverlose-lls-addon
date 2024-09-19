@@ -1,6 +1,6 @@
 # Neverlose Lua Language Server Addon
 
-This repository provides an addon for sumneko's Lua Language Server (LLS), designed to improve the Neverlose development experience with IntelliSense. This addon is to be used with [sumneko's Lua plugin](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) for Visual Studio Code.
+This repository provides an addon for sumneko's Lua Language Server (LLS), designed to improve the Neverlose development experience. This addon is to be used with [sumneko's Lua plugin](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) for Visual Studio Code.
 
 ## Addon features
 
