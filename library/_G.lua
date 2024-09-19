@@ -29,6 +29,15 @@ function print_chat(text, ...) end
 function print_raw(text, ...) end
 
 ---
+---Prints the text into the upper-left console panel.
+---
+---@param text string # Text to print to into the upper-left console panel.
+---@param ... any # Optional arguments to concatenate with `text`.
+---
+---[View documents](https://lua.neverlose.cc/documentation/variables/_g#print_dev)
+function print_dev(text, ...) end
+
+---
 ---Converts time (seconds) to ticks.
 ---
 ---@param time number # The seconds to convert to ticks.
