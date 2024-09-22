@@ -1,6 +1,24 @@
 ---@meta _G
 
 ---
+---Get the current script id
+---
+---@type number
+_ID = 0
+
+---
+---Returns `true` if the script is coming from the neverlose marketplace.
+---
+---@type boolean
+_IS_MARKET = false
+
+---
+---Returns the current script name
+---
+---@type string
+_NAME = "Script"
+
+---
 ---Prints an error to the console and plays a sound.
 ---
 ---@param text string # Text to print into the console.
@@ -59,7 +77,7 @@ function to_time(ticks) end
 
 ---Creates the new class.
 ---
----@return metatable # An instance of the new class with defined structures.
+---@return table # An instance of the new class with defined structures.
 ---
 ---[View documents](https://lua.neverlose.cc/documentation/variables/_g#new_class)
 function new_class() end
