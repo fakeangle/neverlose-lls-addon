@@ -138,6 +138,34 @@ function menu_item:reset() end
 function menu_item:set(value, ...) end
 
 ---
+---Sets the name of the menu item.
+---
+---@param value any # New name
+---
+---[View documents](https://lua.neverlose.cc/documentation/variables/ui#name)
+function menu_item:name(value) end
+
+---
+---Gets the name of the menu item.
+---
+---[View documents](https://lua.neverlose.cc/documentation/variables/ui#name)
+function menu_item:name() end
+
+---
+---Sets the tooltip of the menu item (depending on the presence of the `value` parameter).
+---
+---@param value any # New tooltip text
+---
+---[View documents](https://lua.neverlose.cc/documentation/variables/ui#tooltip)
+function menu_item:tooltip(value) end
+
+---
+---Gets the tooltip of the menu item.
+---
+---[View documents](https://lua.neverlose.cc/documentation/variables/ui#tooltip)
+function menu_item:tooltip() end
+
+---
 ---Sets the menu item visibility depending on the value of `state`.
 ---
 ---@param state boolean # New visibility state
