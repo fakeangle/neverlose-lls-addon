@@ -67,7 +67,7 @@ local menu_item = {}
 ---@return any
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#get)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#get)
 function menu_item:get() end
 
 ---
@@ -76,7 +76,7 @@ function menu_item:get() end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#id)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#id)
 function menu_item:id() end
 
 ---
@@ -85,7 +85,7 @@ function menu_item:id() end
 ---@return table
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#list)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#list)
 function menu_item:list() end
 
 ---
@@ -94,7 +94,7 @@ function menu_item:list() end
 ---@return string
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#type)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#type)
 function menu_item:type() end
 
 ---
@@ -103,7 +103,7 @@ function menu_item:type() end
 ---@param value any # The value to which the menu item will be set
 ---@param ... any
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#override)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#override)
 function menu_item:override(value, ...) end
 
 ---
@@ -111,7 +111,7 @@ function menu_item:override(value, ...) end
 ---
 ---@return any
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#get_override)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#get_override)
 function menu_item:get_override() end
 
 ---
@@ -119,13 +119,13 @@ function menu_item:get_override() end
 ---
 ---@param ... any
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#update)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#update)
 function menu_item:update(...) end
 
 ---
 ---Resets the menu item to it's original value.
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#reset)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#reset)
 function menu_item:reset() end
 
 ---
@@ -134,7 +134,7 @@ function menu_item:reset() end
 ---@param value any # The value to which the menu item will be set
 ---@param ... any
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#set)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#set)
 function menu_item:set(value, ...) end
 
 ---
@@ -142,13 +142,13 @@ function menu_item:set(value, ...) end
 ---
 ---@param value any # New name
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#name)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#name)
 function menu_item:name(value) end
 
 ---
 ---Gets the name of the menu item.
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#name)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#name)
 function menu_item:name() end
 
 ---
@@ -156,13 +156,13 @@ function menu_item:name() end
 ---
 ---@param value any # New tooltip text
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#tooltip)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#tooltip)
 function menu_item:tooltip(value) end
 
 ---
 ---Gets the tooltip of the menu item.
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#tooltip)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#tooltip)
 function menu_item:tooltip() end
 
 ---
@@ -170,13 +170,15 @@ function menu_item:tooltip() end
 ---
 ---@param state boolean # New visibility state
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#visibility)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#visibility)
 function menu_item:visibility(state) end
 
 ---
 ---Gets the menu item visibility.
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#visibility)
+---@return boolean
+---
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#visibility)
 function menu_item:visibility() end
 
 ---
@@ -184,13 +186,13 @@ function menu_item:visibility() end
 ---
 ---@param state boolean # New disabled state
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#disabled)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#disabled)
 function menu_item:disabled(state) end
 
 ---
 ---Gets the menu item disabled state.
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#disabled)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#disabled)
 function menu_item:disabled() end
 
 ---
@@ -199,7 +201,7 @@ function menu_item:disabled() end
 ---@param callback function # Function that will be called when the menu item is interacted with
 ---@param force_call? boolean # Pass `true` to call the callback function after setup
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#set_callback)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#set_callback)
 function menu_item:set_callback(callback, force_call) end
 
 ---
@@ -207,7 +209,7 @@ function menu_item:set_callback(callback, force_call) end
 ---
 ---@param callback function # Lua function that was passed to the `:set_callback` function
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#unset_callback)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#unset_callback)
 function menu_item:unset_callback(callback) end
 
 ---
@@ -216,7 +218,7 @@ function menu_item:unset_callback(callback) end
 ---@param color? color_object # Optional. Initial color value
 ---@return menu_item
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#render.line-1)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#render.line-1)
 function menu_item:color_picker(color) end
 
 ---
@@ -225,7 +227,7 @@ function menu_item:color_picker(color) end
 ---@param colors? color_object[] # Table containing tables with a string index, and those tables should contain one or multiple color objects. Check UI examples.
 ---@return menu_item
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#render.line-1)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#render.line-1)
 function menu_item:color_picker(colors) end
 
 ---
@@ -233,7 +235,7 @@ function menu_item:color_picker(colors) end
 ---
 ---@return menu_group
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#create-1)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#create-1)
 function menu_item:create() end
 
 ---
@@ -241,7 +243,7 @@ function menu_item:create() end
 ---
 ---@return menu_item | menu_group
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#parent)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#parent)
 function menu_item:parent() end
 
 ---
@@ -266,7 +268,7 @@ local menu_group = {}
 ---@param init? boolean # Default value
 ---@return menu_item
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#switch)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#switch)
 function menu_group:switch(name, init) end
 
 ---
@@ -280,7 +282,7 @@ function menu_group:switch(name, init) end
 ---@param tooltip? string | function # A string appends itself to the display value. A function allows you to access the raw display value and displays anything it returns.
 ---@return menu_item
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#slider)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#slider)
 function menu_group:slider(name, min, max, init, scale, tooltip) end
 
 ---
@@ -291,7 +293,7 @@ function menu_group:slider(name, min, max, init, scale, tooltip) end
 ---@param ... any
 ---@return menu_item
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#combo)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#combo)
 function menu_group:combo(name, items, ...) end
 
 ---
@@ -302,7 +304,7 @@ function menu_group:combo(name, items, ...) end
 ---@param ... any
 ---@return menu_item
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#selectable)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#selectable)
 function menu_group:selectable(name, items, ...) end
 
 ---
@@ -312,7 +314,7 @@ function menu_group:selectable(name, items, ...) end
 ---@param color? color_object # Optional. Initial color value
 ---@return menu_item
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#render.line)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#render.line)
 function menu_group:color_picker(name, color) end
 
 ---
@@ -322,7 +324,7 @@ function menu_group:color_picker(name, color) end
 ---@param colors color_object[] # Table containing tables with a string index, and those tables should contain one or multiple color objects. Check UI examples.
 ---@return menu_item
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#render.line)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#render.line)
 function menu_group:color_picker(name, colors) end
 
 ---
@@ -333,7 +335,7 @@ function menu_group:color_picker(name, colors) end
 ---@param alt_style? boolean # Optional. Pass `true` to enable the alternative style for the specified button
 ---@return menu_item
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#button)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#button)
 function menu_group:button(name, callback, alt_style) end
 
 ---
@@ -343,7 +345,7 @@ function menu_group:button(name, callback, alt_style) end
 ---@param default_key? number # Optional. Default key
 ---@return menu_item
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#hotkey)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#hotkey)
 function menu_group:hotkey(name, default_key) end
 
 ---
@@ -353,7 +355,7 @@ function menu_group:hotkey(name, default_key) end
 ---@param text? string # Optional. Default value
 ---@return menu_item
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#input)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#input)
 function menu_group:input(name, text) end
 
 ---
@@ -364,7 +366,7 @@ function menu_group:input(name, text) end
 ---@param ... any
 ---@return menu_item
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#list)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#list)
 function menu_group:list(name, items, ...) end
 
 ---
@@ -375,7 +377,7 @@ function menu_group:list(name, items, ...) end
 ---@param ... any
 ---@return menu_item
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#listable)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#listable)
 function menu_group:listable(name, items, ...) end
 
 ---
@@ -384,7 +386,7 @@ function menu_group:listable(name, items, ...) end
 ---@param text string # Label text
 ---@return menu_item
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#label)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#label)
 function menu_group:label(text) end
 
 ---
@@ -397,7 +399,7 @@ function menu_group:label(text) end
 ---@param rounding? number # Optional. Image border rounding
 ---@return menu_item
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#texture)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#texture)
 function menu_group:texture(texture, size, color, mode, rounding) end
 
 ---
@@ -421,7 +423,7 @@ ui = {}
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#get_alpha)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#get_alpha)
 function ui.get_alpha() end
 
 ---
@@ -430,7 +432,7 @@ function ui.get_alpha() end
 ---@return vector_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#get_size)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#get_size)
 function ui.get_size() end
 
 ---
@@ -439,7 +441,7 @@ function ui.get_size() end
 ---@return vector_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#get_position)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#get_position)
 function ui.get_position() end
 
 ---
@@ -448,7 +450,7 @@ function ui.get_position() end
 ---@return vector_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#get_mouse_position)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#get_mouse_position)
 function ui.get_mouse_position() end
 
 ---
@@ -457,7 +459,7 @@ function ui.get_mouse_position() end
 ---@return hotkey_t
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#get_binds)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#get_binds)
 function ui.get_binds() end
 
 ---
@@ -467,7 +469,7 @@ function ui.get_binds() end
 ---@return color_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#get_style)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#get_style)
 function ui.get_style(name) end
 
 ---
@@ -476,7 +478,7 @@ function ui.get_style(name) end
 ---@return style_t
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#get_style)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#get_style)
 function ui.get_style() end
 
 ---
@@ -486,7 +488,7 @@ function ui.get_style() end
 ---@return string
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#get_icon)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#get_icon)
 function ui.get_icon(name) end
 
 ---
@@ -496,7 +498,7 @@ function ui.get_icon(name) end
 ---@return menu_group
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#create)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#create)
 function ui.create(group) end
 
 ---
@@ -508,7 +510,7 @@ function ui.create(group) end
 ---@return menu_group
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#create)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#create)
 function ui.create(tab, group, column) end
 
 ---
@@ -518,41 +520,80 @@ function ui.create(tab, group, column) end
 ---
 ---Returns the `MenuItem` object that corresponds to the specified path.
 ---
----@param group_name string # Global group name, e.g. "Settings".
----@param item_name string # Item name, e.g. "Dpi Scale".
+---@param category string # Category name, e.g. "Aimbot" or "Visuals".
+---@param tab string # Tab name that belongs to the category.
+---@param group string # Name of group with the item.
+---@param item string # The needed item.
 ---@return menu_item
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#find)
-function ui.find(group_name, item_name) end
-
----
----Returns the `MenuGroup` object that corresponds to the specified path.
----
----@param category string # Category name, e.g. "Aimbot" or "Visuals".
----@param tab string # Tab name that belongs to the category.
----@param sub_tab? string # Sub-tab name.
----@param group? string # Name of the needed group.
----@return menu_group
----@nodiscard
----
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#find)
-function ui.find(category, tab, sub_tab, group) end
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#tab-item-example)
+function ui.find(category, tab, group, item) end
 
 ---
 ---Returns the `MenuItem` object that corresponds to the specified path.
 ---
 ---@param category string # Category name, e.g. "Aimbot" or "Visuals".
 ---@param tab string # Tab name that belongs to the category.
----@param sub_tab? string # Sub-tab name.
 ---@param group string # Name of group with the item.
----@param item string # The needed item.
----@param sub_item? string # The sub-item in the item group.
+---@param item string # The item with a group (gear) attached.
+---@param sub_item string # The sub-item in the item group.
 ---@return menu_item
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#find)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#tab-sub-item-example)
+function ui.find(category, tab, group, item, sub_item) end
+
+---
+---Returns the `MenuItem` object that corresponds to the specified path.
+---
+---@param category string # Category name, e.g. "Aimbot" or "Visuals".
+---@param tab string # Tab name that belongs to the category.
+---@param sub_tab string # Sub-tab name.
+---@param group string # Name of group with the item.
+---@param item string # The item with a group (gear) attached.
+---@param sub_item string # The sub-item in the item group.
+---@return menu_item
+---@nodiscard
+---
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#tab-sub-item-example)
 function ui.find(category, tab, sub_tab, group, item, sub_item) end
+
+---
+---Returns the `MenuGroup` object that corresponds to the specified path.
+---
+---@param category string # Category name, e.g. "Aimbot" or "Visuals".
+---@param tab string # Tab name that belongs to the category.
+---@param group string # Name of the needed group.
+---@return menu_group
+---@nodiscard
+---
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#tab-group-example)
+function ui.find(category, tab, group) end
+
+---
+---Returns the `MenuGroup` object that corresponds to the specified path.
+---
+---@param category string # Category name, e.g. "Aimbot" or "Visuals".
+---@param tab string # Tab name that belongs to the category.
+---@param sub_tab string # Sub-tab name.
+---@param group string # Name of the needed group.
+---@return menu_group
+---@nodiscard
+---
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#tab-group-example)
+function ui.find(category, tab, sub_tab, group) end
+
+---
+---Returns the `MenuItem` object that corresponds to the specified path.
+---
+---@param group_name string # Global group name, e.g. "Settings".
+---@param item_name string # Item name, e.g. "Dpi Scale".
+---@return menu_item
+---@nodiscard
+---
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#tab-global-item-example)
+function ui.find(group_name, item_name) end
 
 ---
 ---Returns the `ESPGroup` object that corresponds to the specified path.
@@ -566,7 +607,7 @@ function ui.find(category, tab, sub_tab, group, item, sub_item) end
 ---@return esp_group
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#find)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#tab-esp-item-example)
 function ui.find(category, tab, sub_tab, group, item_category, item) end
 
 ---
@@ -575,7 +616,7 @@ function ui.find(category, tab, sub_tab, group, item_category, item) end
 ---@param name? string # Optional. Sidebar tab name
 ---@param icon_name? string # Optional. Icon name (Brand icons are currently not supported)
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#sidebar)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#sidebar)
 function ui.sidebar(name, icon_name) end
 
 ---
@@ -584,7 +625,7 @@ function ui.sidebar(name, icon_name) end
 ---@return string, string
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#sidebar)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#sidebar)
 function ui.sidebar() end
 
 ---
@@ -596,7 +637,7 @@ function ui.sidebar() end
 ---@return string|nil
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/ui#localize)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#localize)
 function ui.localize(lang, str, localized) end
 
 return ui
