@@ -13,7 +13,7 @@ local vector_object = {}
 ---@return vector_object vector
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector)
 function vector(x, y, z) end
 
 ---
@@ -24,7 +24,7 @@ function vector(x, y, z) end
 ---@return vector_object vector
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector#angles)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector#angles)
 function vector_object:angles(pitch, yaw) end
 
 ---
@@ -34,7 +34,7 @@ function vector_object:angles(pitch, yaw) end
 ---@return vector_object vector
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector#angles)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector#angles)
 function vector_object:angles(angle) end
 
 ---
@@ -43,7 +43,7 @@ function vector_object:angles(angle) end
 ---@return vector_object vector
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector#angles)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector#angles)
 function vector_object:angles() end
 
 ---
@@ -52,7 +52,7 @@ function vector_object:angles() end
 ---@return vector_object vector
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector#ceil)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector#ceil)
 function vector_object:ceil() end
 
 ---
@@ -61,7 +61,7 @@ function vector_object:ceil() end
 ---@return vector_object vector
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector#clone)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector#clone)
 function vector_object:clone() end
 
 ---
@@ -72,7 +72,7 @@ function vector_object:clone() end
 ---@return vector_object vector
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector#closest_ray_point)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector#closest_ray_point)
 function vector_object:closest_ray_point(ray_start, ray_end) end
 
 ---
@@ -82,7 +82,7 @@ function vector_object:closest_ray_point(ray_start, ray_end) end
 ---@return vector_object vector
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector#cross)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector#cross)
 function vector_object:cross(other) end
 
 ---
@@ -92,7 +92,7 @@ function vector_object:cross(other) end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector#dist)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector#dist)
 function vector_object:dist(other) end
 
 ---
@@ -102,7 +102,7 @@ function vector_object:dist(other) end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector#dist2d)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector#dist2d)
 function vector_object:dist2d(other) end
 
 ---
@@ -112,7 +112,7 @@ function vector_object:dist2d(other) end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector#dist2dsqr)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector#dist2dsqr)
 function vector_object:dist2dsqr(other) end
 
 ---
@@ -122,7 +122,7 @@ function vector_object:dist2dsqr(other) end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector#distsqr)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector#distsqr)
 function vector_object:distsqr(other) end
 
 ---
@@ -133,7 +133,7 @@ function vector_object:distsqr(other) end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector#dist_to_ray)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector#dist_to_ray)
 function vector_object:dist_to_ray(ray_start, ray_direction) end
 
 ---
@@ -143,7 +143,7 @@ function vector_object:dist_to_ray(ray_start, ray_direction) end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector#dot)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector#dot)
 function vector_object:dot(other) end
 
 ---
@@ -152,7 +152,7 @@ function vector_object:dot(other) end
 ---@return vector_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector#floor)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector#floor)
 function vector_object:floor() end
 
 ---
@@ -163,7 +163,7 @@ function vector_object:floor() end
 ---@return boolean
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector#in_range)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector#in_range)
 function vector_object:in_range(other, range) end
 
 ---
@@ -175,7 +175,7 @@ function vector_object:in_range(other, range) end
 ---@return vector_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector#init)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector#init)
 function vector_object:init(x, y, z) end
 
 ---
@@ -184,7 +184,7 @@ function vector_object:init(x, y, z) end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector#length)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector#length)
 function vector_object:length() end
 
 ---
@@ -193,7 +193,7 @@ function vector_object:length() end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector#length2d)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector#length2d)
 function vector_object:length2d() end
 
 ---
@@ -202,7 +202,7 @@ function vector_object:length2d() end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector#length2dsqr)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector#length2dsqr)
 function vector_object:length2dsqr() end
 
 ---
@@ -211,7 +211,7 @@ function vector_object:length2dsqr() end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector#lengthsqr)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector#lengthsqr)
 function vector_object:lengthsqr() end
 
 ---
@@ -222,7 +222,7 @@ function vector_object:lengthsqr() end
 ---@return vector_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector#lerp)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector#lerp)
 function vector_object:lerp(other, weight) end
 
 ---
@@ -231,7 +231,7 @@ function vector_object:lerp(other, weight) end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector#normalize)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector#normalize)
 function vector_object:normalize() end
 
 ---
@@ -240,7 +240,7 @@ function vector_object:normalize() end
 ---@return vector_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector#normalized)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector#normalized)
 function vector_object:normalized() end
 
 ---
@@ -250,7 +250,7 @@ function vector_object:normalized() end
 ---@return vector_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector#scale)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector#scale)
 function vector_object:scale(scalar) end
 
 ---
@@ -260,7 +260,7 @@ function vector_object:scale(scalar) end
 ---@return vector_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector#scaled)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector#scaled)
 function vector_object:scaled(scalar) end
 
 ---
@@ -270,7 +270,7 @@ function vector_object:scaled(scalar) end
 ---@return vector_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector#to)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector#to)
 function vector_object:to(other) end
 
 ---
@@ -279,7 +279,7 @@ function vector_object:to(other) end
 ---@return vector_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector#to_screen)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector#to_screen)
 function vector_object:to_screen() end
 
 ---
@@ -288,7 +288,7 @@ function vector_object:to_screen() end
 ---@return number, number, number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector#unpack)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector#unpack)
 function vector_object:unpack() end
 
 ---
@@ -297,7 +297,7 @@ function vector_object:unpack() end
 ---@return vector_object, vector_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/vector#vectors)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/vector#vectors)
 function vector_object:vectors() end
 
 return vector_object

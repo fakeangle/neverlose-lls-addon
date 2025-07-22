@@ -227,7 +227,7 @@ local ent = {}
 ---@return boolean
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#is_player)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#is_player)
 function ent:is_player() end
 
 ---
@@ -236,7 +236,7 @@ function ent:is_player() end
 ---@return boolean
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#is_weapon)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#is_weapon)
 function ent:is_weapon() end
 
 ---
@@ -245,7 +245,7 @@ function ent:is_weapon() end
 ---@return boolean
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#is_dormant)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#is_dormant)
 function ent:is_dormant() end
 
 ---
@@ -254,7 +254,7 @@ function ent:is_dormant() end
 ---@return boolean
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#is_bot)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#is_bot)
 function ent:is_bot() end
 
 ---
@@ -263,7 +263,7 @@ function ent:is_bot() end
 ---@return boolean
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#is_alive)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#is_alive)
 function ent:is_alive() end
 
 ---
@@ -272,7 +272,7 @@ function ent:is_alive() end
 ---@return boolean
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#is_enemy)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#is_enemy)
 function ent:is_enemy() end
 
 ---
@@ -281,7 +281,7 @@ function ent:is_enemy() end
 ---@return boolean
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#is_visible)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#is_visible)
 function ent:is_visible() end
 
 ---
@@ -291,7 +291,7 @@ function ent:is_visible() end
 ---@return boolean
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#is_occluded)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#is_occluded)
 function ent:is_occluded(to_entity) end
 
 ---
@@ -300,7 +300,7 @@ function ent:is_occluded(to_entity) end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_index)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_index)
 function ent:get_index() end
 
 ---
@@ -309,7 +309,7 @@ function ent:get_index() end
 ---@return string
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_name)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_name)
 function ent:get_name() end
 
 ---
@@ -318,7 +318,7 @@ function ent:get_name() end
 ---@return vector_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_origin)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_origin)
 function ent:get_origin() end
 
 ---
@@ -327,7 +327,7 @@ function ent:get_origin() end
 ---@return vector_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_angles)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_angles)
 function ent:get_angles() end
 
 ---
@@ -336,7 +336,7 @@ function ent:get_angles() end
 ---@return { old: number, current: number }
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_simulation_time)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_simulation_time)
 function ent:get_simulation_time() end
 
 ---
@@ -345,7 +345,7 @@ function ent:get_simulation_time() end
 ---@return string
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_classname)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_classname)
 function ent:get_classname() end
 
 ---
@@ -354,7 +354,7 @@ function ent:get_classname() end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_classid)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_classid)
 function ent:get_classid() end
 
 ---
@@ -363,7 +363,7 @@ function ent:get_classid() end
 ---@return table
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_materials)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_materials)
 function ent:get_materials() end
 
 ---
@@ -372,7 +372,7 @@ function ent:get_materials() end
 ---@return string
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_model_name)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_model_name)
 function ent:get_model_name() end
 
 ---
@@ -393,7 +393,7 @@ function ent:get_model_name() end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_network_state)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_network_state)
 function ent:get_network_state() end
 
 ---
@@ -402,7 +402,7 @@ function ent:get_network_state() end
 ---@return { pos1: vector_object, pos2: vector_object, alpha: number }
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_bbox)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_bbox)
 function ent:get_bbox() end
 
 ---
@@ -411,7 +411,7 @@ function ent:get_bbox() end
 ---@return { is_hltv: boolean, is_fake_player: boolean, steamid: number, steamid64: number, userid: number, files_downloaded: number }
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_player_info)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_player_info)
 function ent:get_player_info() end
 
 ---
@@ -423,7 +423,7 @@ function ent:get_player_info() end
 ---@return ent|table
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_player_weapon)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_player_weapon)
 function ent:get_player_weapon(all_weapons) end
 
 ---
@@ -432,7 +432,7 @@ function ent:get_player_weapon(all_weapons) end
 ---@return animation_state_t
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_anim_state)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_anim_state)
 function ent:get_anim_state() end
 
 ---
@@ -442,7 +442,7 @@ function ent:get_anim_state() end
 ---@return animation_layer_t
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_anim_overlay)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_anim_overlay)
 function ent:get_anim_overlay(idx) end
 
 ---
@@ -451,7 +451,7 @@ function ent:get_anim_overlay(idx) end
 ---@return vector_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_eye_position)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_eye_position)
 function ent:get_eye_position() end
 
 ---
@@ -461,7 +461,7 @@ function ent:get_eye_position() end
 ---@return vector_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_bone_position)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_bone_position)
 function ent:get_bone_position(idx) end
 
 ---
@@ -471,7 +471,7 @@ function ent:get_bone_position(idx) end
 ---@return vector_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_hitbox_position)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_hitbox_position)
 function ent:get_hitbox_position(idx) end
 
 ---
@@ -480,7 +480,7 @@ function ent:get_hitbox_position(idx) end
 ---@return image_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_steam_avatar)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_steam_avatar)
 function ent:get_steam_avatar() end
 
 ---
@@ -489,7 +489,7 @@ function ent:get_steam_avatar() end
 ---@return string
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_xuid)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_xuid)
 function ent:get_xuid() end
 
 ---
@@ -498,7 +498,7 @@ function ent:get_xuid() end
 ---@return ent entity
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_resource)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_resource)
 function ent:get_resource() end
 
 ---
@@ -507,7 +507,7 @@ function ent:get_resource() end
 ---@return { [number]: ent }
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_spectators)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_spectators)
 function ent:get_spectators() end
 
 ---
@@ -515,7 +515,7 @@ function ent:get_spectators() end
 ---
 ---@param icon? string # Optional. URL to the icon or a panorama path.
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#set_icon)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#set_icon)
 function ent:set_icon(icon) end
 
 ---
@@ -527,7 +527,7 @@ function ent:set_icon(icon) end
 ---@return sim_ctx
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#simulate_movement)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#simulate_movement)
 function ent:simulate_movement(origin, velocity, flags) end
 
 ---
@@ -535,7 +535,7 @@ function ent:simulate_movement(origin, velocity, flags) end
 ---
 ---@param ticks? number
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#think)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#think)
 function sim_ctx:think(ticks) end
 
 ---
@@ -544,7 +544,7 @@ function sim_ctx:think(ticks) end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_weapon_index)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_weapon_index)
 function ent:get_weapon_index() end
 
 ---
@@ -553,7 +553,7 @@ function ent:get_weapon_index() end
 ---@return image_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_weapon_icon)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_weapon_icon)
 function ent:get_weapon_icon() end
 
 ---
@@ -562,7 +562,7 @@ function ent:get_weapon_icon() end
 ---@return weapon_info_t
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_weapon_info)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_weapon_info)
 function ent:get_weapon_info() end
 
 ---
@@ -571,7 +571,7 @@ function ent:get_weapon_info() end
 ---@return ent entity
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_weapon_owner)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_weapon_owner)
 function ent:get_weapon_owner() end
 
 ---
@@ -580,7 +580,7 @@ function ent:get_weapon_owner() end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_weapon_reload)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_weapon_reload)
 function ent:get_weapon_reload() end
 
 ---
@@ -589,7 +589,7 @@ function ent:get_weapon_reload() end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_max_speed)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_max_speed)
 function ent:get_max_speed() end
 
 ---
@@ -598,7 +598,7 @@ function ent:get_max_speed() end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_spread)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_spread)
 function ent:get_spread() end
 
 ---
@@ -607,7 +607,7 @@ function ent:get_spread() end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_inaccuracy)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_inaccuracy)
 function ent:get_inaccuracy() end
 
 ---@class entity
@@ -621,7 +621,7 @@ entity = {}
 ---@return ent entity
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get)
 function entity.get(idx, by_userid) end
 
 ---
@@ -630,7 +630,7 @@ function entity.get(idx, by_userid) end
 ---@return ent entity
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_local_player)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_local_player)
 function entity.get_local_player() end
 
 ---
@@ -642,7 +642,7 @@ function entity.get_local_player() end
 ---@return { [number]: ent } players
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_players)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_players)
 function entity.get_players(enemies_only, include_dormant, callback) end
 
 ---
@@ -654,7 +654,7 @@ function entity.get_players(enemies_only, include_dormant, callback) end
 ---@return { [number]: ent } entities
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_entities)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_entities)
 function entity.get_entities(class, include_dormant, callback) end
 
 ---
@@ -664,7 +664,7 @@ function entity.get_entities(class, include_dormant, callback) end
 ---@return ent entity
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_threat)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_threat)
 function entity.get_threat(hittable) end
 
 ---
@@ -673,7 +673,7 @@ function entity.get_threat(hittable) end
 ---@return ent entity
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_game_rules)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_game_rules)
 function entity.get_game_rules() end
 
 ---
@@ -682,7 +682,7 @@ function entity.get_game_rules() end
 ---@return ent entity
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/entity#get_player_resource)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_player_resource)
 function entity.get_player_resource() end
 
 return ent

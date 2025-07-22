@@ -85,7 +85,7 @@ panorama = {}
 ---@param panel? string # Optional. Panel name
 ---@return any
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/panorama#loadstring)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/panorama#loadstring)
 function panorama.loadstring(js_code, panel) end
 
 return panorama

@@ -8,7 +8,7 @@
 local event = {}
 
 ---
----List taken from [Allied Modders](https://wiki.alliedmods.net/Counter-Strike:_Global_Offensive_Events) and [Neverlose](https://lua.neverlose.cc/documentation/variables/events). Possibly outdated.
+---List taken from [Allied Modders](https://wiki.alliedmods.net/Counter-Strike:_Global_Offensive_Events) and [Neverlose](https://docs-csgo.neverlose.cc/documentation/variables/events). Possibly outdated.
 ---
 ---@class events
 ---@field render event
@@ -212,7 +212,7 @@ events = {}
 ---
 ---@param callback function # Lua function to call
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/events#set)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/events#set)
 function event:set(callback) end
 
 ---
@@ -220,7 +220,7 @@ function event:set(callback) end
 ---
 ---@param callback function # Lua function that was passed to the `:set` function
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/events#unset)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/events#unset)
 function event:unset(callback) end
 
 ---
@@ -228,7 +228,7 @@ function event:unset(callback) end
 ---
 ---@param ... any # Arguments to be passed by the callback
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/events#call)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/events#call)
 function event:call(...) end
 
 return events

@@ -9,7 +9,7 @@ local cvar_object = {}
 ---
 ---@param ... any # Arguments passed to the callback
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/cvar#call)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/cvar#call)
 function cvar_object:call(...) end
 
 ---
@@ -17,7 +17,7 @@ function cvar_object:call(...) end
 ---
 ---@return integer
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/cvar#int)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/cvar#int)
 function cvar_object:int() end
 
 ---
@@ -26,7 +26,7 @@ function cvar_object:int() end
 ---@param value integer # New int value
 ---@param raw? boolean # Optional. If `true` then the `raw` value will be set
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/cvar#int)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/cvar#int)
 function cvar_object:int(value, raw) end
 
 ---
@@ -34,7 +34,7 @@ function cvar_object:int(value, raw) end
 ---
 ---@return number
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/cvar#float)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/cvar#float)
 function cvar_object:float() end
 
 ---
@@ -43,7 +43,7 @@ function cvar_object:float() end
 ---@param value number # New float value
 ---@param raw? boolean # Optional. If `true` then the `raw` value will be set
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/cvar#float)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/cvar#float)
 function cvar_object:float(value, raw) end
 
 ---
@@ -51,7 +51,7 @@ function cvar_object:float(value, raw) end
 ---
 ---@return string
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/cvar#string)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/cvar#string)
 function cvar_object:string() end
 
 ---
@@ -59,7 +59,7 @@ function cvar_object:string() end
 ---
 ---@param value? string # New string value. If not specified then returns the string value of the ConVar
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/cvar#string)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/cvar#string)
 function cvar_object:string(value) end
 
 ---
@@ -67,7 +67,7 @@ function cvar_object:string(value) end
 ---
 ---@param callback? function # Lua function to call
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/cvar#set_callback)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/cvar#set_callback)
 function cvar_object:set_callback(callback) end
 
 ---
@@ -75,7 +75,7 @@ function cvar_object:set_callback(callback) end
 ---
 ---@param callback? function # Lua function that was passed to the `:set_callback` function
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/cvar#unset_callback)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/cvar#unset_callback)
 function cvar_object:unset_callback(callback) end
 
 return cvar_object

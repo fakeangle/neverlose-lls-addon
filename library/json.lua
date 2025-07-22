@@ -9,7 +9,7 @@ json = {}
 ---@param json_text string # UTF-8 JSON text
 ---@return any
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/json#parse)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/json#parse)
 function json.parse(json_text) end
 
 ---
@@ -18,7 +18,7 @@ function json.parse(json_text) end
 ---@param value any # A lua boolean, number, string, table or nil
 ---@return string
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/json#stringify)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/json#stringify)
 function json.stringify(value) end
 
 return json

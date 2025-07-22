@@ -9,7 +9,7 @@ local antiaim = {}
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/rage#get_max_desync)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/rage#get_max_desync)
 function antiaim:get_max_desync() end
 
 ---
@@ -19,7 +19,7 @@ function antiaim:get_max_desync() end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/rage#get_rotation)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/rage#get_rotation)
 function antiaim:get_rotation(value) end
 
 ---
@@ -29,7 +29,7 @@ function antiaim:get_rotation(value) end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/rage#get_target)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/rage#get_target)
 function antiaim:get_target(return_fr) end
 
 ---
@@ -39,7 +39,7 @@ function antiaim:get_target(return_fr) end
 ---@return boolean
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/rage#inverter)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/rage#inverter)
 function antiaim:inverter(value) end
 
 ---
@@ -49,7 +49,7 @@ function antiaim:inverter(value) end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/rage#override_hidden_pitch)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/rage#override_hidden_pitch)
 function antiaim:override_hidden_pitch(value) end
 
 ---
@@ -59,7 +59,7 @@ function antiaim:override_hidden_pitch(value) end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/rage#override_hidden_yaw_offset)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/rage#override_hidden_yaw_offset)
 function antiaim:override_hidden_yaw_offset(value) end
 
 ---@class exploit
@@ -71,7 +71,7 @@ local exploit = {}
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/rage#get)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/rage#get)
 function exploit:get() end
 
 ---
@@ -79,7 +79,7 @@ function exploit:get() end
 ---
 ---@param value? boolean # Optional. If `true`, allows exploit charge. If `false`, blocks exploit charge. Defaults to `true`
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/rage#allow_charge)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/rage#allow_charge)
 function exploit:allow_charge(value) end
 
 ---
@@ -87,15 +87,15 @@ function exploit:allow_charge(value) end
 ---
 ---@param value? boolean # Optional. If `true`, allows the cheat to discharge defensive exploit. If `false`, blocks defensive exploit discharge. Defaults to `true`
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/rage#allow_defensive)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/rage#allow_defensive)
 function exploit:allow_defensive(value) end
 
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/rage#force_teleport)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/rage#force_teleport)
 function exploit:force_teleport() end
 
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/rage#force_charge)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/rage#force_charge)
 function exploit:force_charge() end
 
 ---@class rage

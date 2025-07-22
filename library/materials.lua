@@ -8,7 +8,7 @@ local material = {}
 ---
 ---@return string
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/materials#get_name)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/materials#get_name)
 function material:get_name() end
 
 ---
@@ -16,7 +16,7 @@ function material:get_name() end
 ---
 ---@return string
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/materials#get_texture_group_name)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/materials#get_texture_group_name)
 function material:get_texture_group_name() end
 
 ---
@@ -26,7 +26,7 @@ function material:get_texture_group_name() end
 ---@param value? boolean # New material var flag value
 ---@return boolean
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/materials#var_flag)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/materials#var_flag)
 function material:var_flag(flag, value) end
 
 ---
@@ -36,7 +36,7 @@ function material:var_flag(flag, value) end
 ---@param value? any # New shader parameter value
 ---@return any
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/materials#shader_param)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/materials#shader_param)
 function material:shader_param(name, value) end
 
 ---
@@ -44,7 +44,7 @@ function material:shader_param(name, value) end
 ---
 ---@param color? color_object # New color modulation value
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/materials#color_modulate)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/materials#color_modulate)
 function material:color_modulate(color) end
 
 ---
@@ -52,7 +52,7 @@ function material:color_modulate(color) end
 ---
 ---@param alpha? number # New alpha modulation value
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/materials#alpha_modulate)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/materials#alpha_modulate)
 function material:alpha_modulate(alpha) end
 
 ---
@@ -60,13 +60,13 @@ function material:alpha_modulate(alpha) end
 ---
 ---@return boolean
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/materials#is_valid)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/materials#is_valid)
 function material:is_valid() end
 
 ---
 ---Resets the material properties to its original values along with discarding the override.
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/materials#reset)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/materials#reset)
 function material:reset() end
 
 ---
@@ -74,7 +74,7 @@ function material:reset() end
 ---
 ---@param mat material # Material object with the needed properties
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/materials#override)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/materials#override)
 function material:override(mat) end
 
 ---@class materials
@@ -87,7 +87,7 @@ materials = {}
 ---@param force_load? boolean # Loads the material if not loaded
 ---@return material
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/materials#get)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/materials#get)
 function materials.get(path, force_load) end
 
 ---
@@ -98,7 +98,7 @@ function materials.get(path, force_load) end
 ---@param callback? function # A callback with a pointer to the material object as the argument
 ---@return table
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/materials#get_materials)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/materials#get_materials)
 function materials.get_materials(partial_path, force_load, callback) end
 
 ---
@@ -108,7 +108,7 @@ function materials.get_materials(partial_path, force_load, callback) end
 ---@param key_values string # New material values
 ---@return material
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/materials#create)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/materials#create)
 function materials.create(name, key_values) end
 
 return materials

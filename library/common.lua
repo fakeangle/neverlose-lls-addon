@@ -11,7 +11,7 @@ common = {}
 ---@return string
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/common#get_date)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/common#get_date)
 function common.get_date(format, unix_time) end
 
 ---
@@ -20,7 +20,7 @@ function common.get_date(format, unix_time) end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/common#get_unixtime)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/common#get_unixtime)
 function common.get_unixtime() end
 
 ---
@@ -29,7 +29,7 @@ function common.get_unixtime() end
 ---@return { year: number, month: number, day: number, hours: number, minutes: number, seconds: number }
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/common#get_system_time)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/common#get_system_time)
 function common.get_system_time() end
 
 ---
@@ -38,7 +38,7 @@ function common.get_system_time() end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/common#get_product_version)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/common#get_product_version)
 function common.get_product_version() end
 
 ---
@@ -47,7 +47,7 @@ function common.get_product_version() end
 ---@return string
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/common#get_game_directory)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/common#get_game_directory)
 function common.get_game_directory() end
 
 ---
@@ -56,7 +56,7 @@ function common.get_game_directory() end
 ---@return { name: string, shortname: string, group: string }
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/common#get_map_data)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/common#get_map_data)
 function common.get_map_data() end
 
 ---
@@ -65,7 +65,7 @@ function common.get_map_data() end
 ---@return string
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/common#get_username)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/common#get_username)
 function common.get_username() end
 
 ---
@@ -74,7 +74,7 @@ function common.get_username() end
 ---@return string
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/common#get_config_name)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/common#get_config_name)
 function common.get_config_name() end
 
 ---
@@ -83,7 +83,7 @@ function common.get_config_name() end
 ---@return table
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/common#get_active_scripts)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/common#get_active_scripts)
 function common.get_active_scripts() end
 
 ---
@@ -92,7 +92,7 @@ function common.get_active_scripts() end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/common#get_mouse_wheel_delta)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/common#get_mouse_wheel_delta)
 function common.get_mouse_wheel_delta() end
 
 ---
@@ -101,25 +101,25 @@ function common.get_mouse_wheel_delta() end
 ---@return boolean
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/common#is_in_thirdperson)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/common#is_in_thirdperson)
 function common.is_in_thirdperson() end
 
 ---
 ---Reloads current script.
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/common#reload_script)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/common#reload_script)
 function common.reload_script() end
 
 ---
 ---Unloads current script.
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/common#unload_script)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/common#unload_script)
 function common.unload_script() end
 
 ---
 ---Forces the server to send a full update packet.
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/common#force_full_update)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/common#force_full_update)
 function common.force_full_update() end
 
 ---
@@ -127,7 +127,7 @@ function common.force_full_update() end
 ---
 ---@param text string # New clan tag
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/common#set_clan_tag)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/common#set_clan_tag)
 function common.set_clan_tag(text) end
 
 ---
@@ -135,7 +135,7 @@ function common.set_clan_tag(text) end
 ---
 ---@param text string # New name
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/common#set_clan_tag)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/common#set_clan_tag)
 function common.set_name(text) end
 
 ---
@@ -144,7 +144,7 @@ function common.set_name(text) end
 ---@param text string # Text to print to into the upper-left panel.
 ---@param icon_name? string # Optional. Fontawesome icon name.
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/common#add_event)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/common#add_event)
 function common.add_event(text, icon_name) end
 
 ---
@@ -153,7 +153,7 @@ function common.add_event(text, icon_name) end
 ---@param title string # Text to print to into the title.
 ---@param body string # Text to print to into the body of the notification.
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/common#add_notify)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/common#add_notify)
 function common.add_notify(title, body) end
 
 ---
@@ -163,7 +163,7 @@ function common.add_notify(title, body) end
 ---@return boolean
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/common#is_button_down)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/common#is_button_down)
 function common.is_button_down(key) end
 
 ---
@@ -173,7 +173,7 @@ function common.is_button_down(key) end
 ---@return boolean
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/common#is_button_released)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/common#is_button_released)
 function common.is_button_released(key) end
 
 return common

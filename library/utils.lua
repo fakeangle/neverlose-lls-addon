@@ -33,13 +33,13 @@ local trace_t = {}
 ---
 ---Returns the `outgoing` flow
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/utils#netchannel)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/utils#netchannel)
 ---@alias outgoing_flow number
 
 ---
 ---Returns the `incoming` flow
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/utils#netchannel)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/utils#netchannel)
 ---@alias incoming_flow number
 
 ---@alias channels { [0]: outgoing_flow, [1]: incoming_flow }
@@ -68,7 +68,7 @@ local net_channel = {}
 ---@return { rate: number, name: string, address: string, frame_time: number, deviation: number }
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/utils#get_server_info)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/utils#get_server_info)
 function net_channel:get_server_info() end
 
 ---
@@ -79,7 +79,7 @@ function net_channel:get_server_info() end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/utils#is_valid_packet)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/utils#is_valid_packet)
 function net_channel:is_valid_packet(flow, frame) end
 
 ---
@@ -90,7 +90,7 @@ function net_channel:is_valid_packet(flow, frame) end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/utils#get_packet_time)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/utils#get_packet_time)
 function net_channel:get_packet_time(flow, frame) end
 
 ---
@@ -102,7 +102,7 @@ function net_channel:get_packet_time(flow, frame) end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/utils#get_packet_bytes)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/utils#get_packet_bytes)
 function net_channel:get_packet_bytes(flow, frame, group) end
 
 ---
@@ -113,7 +113,7 @@ function net_channel:get_packet_bytes(flow, frame, group) end
 ---@return number, number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/utils#get_packet_response_latency)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/utils#get_packet_response_latency)
 function net_channel:get_packet_response_latency(flow, frame) end
 
 ---@class utils
@@ -125,7 +125,7 @@ utils = {}
 ---@param cmd string # The console command(s) to execute
 ---@param ... any # Comma-separated arguments to concatenate with cmd
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/utils#console_exec)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/utils#console_exec)
 function utils.console_exec(cmd, ...) end
 
 ---
@@ -135,7 +135,7 @@ function utils.console_exec(cmd, ...) end
 ---@param callback function # The Lua function that will be called after the delay
 ---@param ... any # Arguments that will be passed to the callback
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/utils#execute_after)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/utils#execute_after)
 function utils.execute_after(delay, callback, ...) end
 
 ---
@@ -144,7 +144,7 @@ function utils.execute_after(delay, callback, ...) end
 ---@return net_channel
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/utils#net_channel)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/utils#net_channel)
 function utils.net_channel() end
 
 ---
@@ -158,7 +158,7 @@ function utils.net_channel() end
 ---@return trace_t
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/utils#trace_line)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/utils#trace_line)
 function utils.trace_line(from, to, skip, mask, type) end
 
 ---
@@ -174,7 +174,7 @@ function utils.trace_line(from, to, skip, mask, type) end
 ---@return trace_t
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/utils#trace_hull)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/utils#trace_hull)
 function utils.trace_hull(from, to, mins, maxs, skip, mask, type) end
 
 ---
@@ -187,7 +187,7 @@ function utils.trace_hull(from, to, mins, maxs, skip, mask, type) end
 ---@return number, trace_t
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/utils#trace_bullet)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/utils#trace_bullet)
 function utils.trace_bullet(from_entity, from, to, skip) end
 
 ---
@@ -199,7 +199,7 @@ function utils.trace_bullet(from_entity, from, to, skip) end
 ---@return userdata
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/utils#opcode_scan)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/utils#opcode_scan)
 function utils.opcode_scan(module, signature, offset) end
 
 ---
@@ -210,7 +210,7 @@ function utils.opcode_scan(module, signature, offset) end
 ---@return userdata
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/utils#create_interface)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/utils#create_interface)
 function utils.create_interface(module, interface) end
 
 ---
@@ -221,7 +221,7 @@ function utils.create_interface(module, interface) end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/utils#get_netvar_offset)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/utils#get_netvar_offset)
 function utils.get_netvar_offset(table, prop) end
 
 ---
@@ -232,7 +232,7 @@ function utils.get_netvar_offset(table, prop) end
 ---@return function
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/utils#get_vfunc)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/utils#get_vfunc)
 function utils.get_vfunc(index, ...) end
 
 ---
@@ -245,7 +245,7 @@ function utils.get_vfunc(index, ...) end
 ---@return function
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/utils#get_vfunc-1)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/utils#get_vfunc-1)
 function utils.get_vfunc(module, interface, index, ...) end
 
 ---
@@ -256,7 +256,7 @@ function utils.get_vfunc(module, interface, index, ...) end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/utils#random_int)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/utils#random_int)
 function utils.random_int(min, max) end
 
 ---
@@ -267,7 +267,7 @@ function utils.random_int(min, max) end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/utils#random_float)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/utils#random_float)
 function utils.random_float(min, max) end
 
 ---
@@ -275,7 +275,7 @@ function utils.random_float(min, max) end
 ---
 ---@param seed number # New random seed value
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/utils#random_seed)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/utils#random_seed)
 function utils.random_seed(seed) end
 
 return utils

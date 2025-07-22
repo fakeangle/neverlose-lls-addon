@@ -11,7 +11,7 @@ network = {}
 ---@param callback? function # Callback
 ---@return string
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/network#get)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/network#get)
 function network.get(url, headers, callback) end
 
 ---
@@ -23,7 +23,7 @@ function network.get(url, headers, callback) end
 ---@param callback? function # Callback
 ---@return string
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/network#post)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/network#post)
 function network.post(url, data, headers, callback) end
 
 return network

@@ -25,7 +25,7 @@ local font_object = {}
 ---
 ---@param size number # New size of the font
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#set_size)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#set_size)
 function font_object:set_size(size) end
 
 ---
@@ -33,7 +33,7 @@ function font_object:set_size(size) end
 ---
 ---@param size vector_object # A vector object containing `width`, `height`, and `spacing`.
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#set_size)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#set_size)
 function font_object:set_size(size) end
 
 ---@class render
@@ -43,7 +43,7 @@ render = {}
 ---@return vector_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#screen_size)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#screen_size)
 function render.screen_size() end
 
 ---
@@ -52,7 +52,7 @@ function render.screen_size() end
 ---@return vector_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#camera_position)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#camera_position)
 function render.camera_position() end
 
 ---
@@ -60,7 +60,7 @@ function render.camera_position() end
 ---
 ---@param angles vector_object # New camera angles
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#camera_angles)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#camera_angles)
 function render.camera_angles(angles) end
 
 ---
@@ -69,7 +69,7 @@ function render.camera_angles(angles) end
 ---@return vector_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#camera_angles)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#camera_angles)
 function render.camera_angles() end
 
 ---
@@ -79,7 +79,7 @@ function render.camera_angles() end
 ---@return vector_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#world_to_screen)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#world_to_screen)
 function render.world_to_screen(position) end
 
 ---
@@ -91,7 +91,7 @@ function render.world_to_screen(position) end
 ---@return vector_object, number, boolean
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#get_offscreen)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#get_offscreen)
 function render.get_offscreen(position, radius, accurate) end
 
 ---
@@ -101,7 +101,7 @@ function render.get_offscreen(position, radius, accurate) end
 ---@return color_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#get_pixel)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#get_pixel)
 function render.get_pixel(position) end
 
 ---
@@ -113,7 +113,7 @@ function render.get_pixel(position) end
 ---@return font_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#load_font)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#load_font)
 function render.load_font(name, size, flags) end
 
 ---
@@ -125,7 +125,7 @@ function render.load_font(name, size, flags) end
 ---@return font_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#load_font)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#load_font)
 function render.load_font(name, size, flags) end
 
 ---
@@ -136,7 +136,7 @@ function render.load_font(name, size, flags) end
 ---@return image_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#load_image)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#load_image)
 function render.load_image(contents, size) end
 
 ---
@@ -147,7 +147,7 @@ function render.load_image(contents, size) end
 ---@return image_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#load_image_rgba)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#load_image_rgba)
 function render.load_image_rgba(contents, size) end
 
 ---
@@ -158,7 +158,7 @@ function render.load_image_rgba(contents, size) end
 ---@return image_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#load_image_from_file)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#load_image_from_file)
 function render.load_image_from_file(path, size) end
 
 ---
@@ -170,7 +170,7 @@ function render.load_image_from_file(path, size) end
 ---@return image_object
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#measure_text)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#measure_text)
 function render.measure_text(font, flags, text) end
 
 ---
@@ -180,7 +180,7 @@ function render.measure_text(font, flags, text) end
 ---@param hitbox number
 ---@param color color_object
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#highlight_hitbox)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#highlight_hitbox)
 function render.highlight_hitbox(entity, hitbox, color) end
 
 ---
@@ -190,7 +190,7 @@ function render.highlight_hitbox(entity, hitbox, color) end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#get_scale)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#get_scale)
 function render.get_scale(type) end
 
 ---
@@ -200,7 +200,7 @@ function render.get_scale(type) end
 ---@param alpha number # Alpha percentage in the range [0.0, 1.0]
 ---@param rounding number # Optional. Rounding of the blur rectangle in pixels
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#blur)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#blur)
 function render.blur(position_a, position_b, strength, alpha, rounding) end
 
 ---
@@ -208,7 +208,7 @@ function render.blur(position_a, position_b, strength, alpha, rounding) end
 ---@param position_b vector_object # End position
 ---@param color color_object # Color of the line
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#line)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#line)
 function render.line(position_a, position_b, color) end
 
 ---
@@ -216,7 +216,7 @@ function render.line(position_a, position_b, color) end
 ---@param positions vector_object # Screen positions
 ---@param ... any # Comma-separated vectors to concatenate with `positions`
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#poly)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#poly)
 function render.poly(color, positions, ...) end
 
 ---
@@ -225,7 +225,7 @@ function render.poly(color, positions, ...) end
 ---@param positions vector_object # Screen positions
 ---@param ... any # Comma-separated vectors to concatenate with `positions`
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#poly_blur)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#poly_blur)
 function render.poly_blur(opacity, strength, positions, ...) end
 
 ---
@@ -233,7 +233,7 @@ function render.poly_blur(opacity, strength, positions, ...) end
 ---@param positions vector_object # Screen positions
 ---@param ... any # Comma-separated vectors to concatenate with `positions`
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#poly_line)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#poly_line)
 function render.poly_line(color, positions, ...) end
 
 ---
@@ -243,7 +243,7 @@ function render.poly_line(color, positions, ...) end
 ---@param rounding? number # Optional. Rounding of the rectangle in pixels
 ---@param no_clamp? boolean # Optional. If `true`, negative sizes will be allowed
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#rect)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#rect)
 function render.rect(position_a, position_b, color, rounding, no_clamp) end
 
 ---
@@ -254,7 +254,7 @@ function render.rect(position_a, position_b, color, rounding, no_clamp) end
 ---@param rounding? number # Optional. Rounding of the rectangle in pixels
 ---@param no_clamp? boolean # Optional. If `true`, `position_a < position_b` will be allowed
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#rect_outline)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#rect_outline)
 function render.rect_outline(position_a, position_b, color, thickness, rounding, no_clamp) end
 
 ---
@@ -266,7 +266,7 @@ function render.rect_outline(position_a, position_b, color, thickness, rounding,
 ---@param bottom_right color_object # Color of the bottom right rectangle position
 ---@param rounding? number # Optional. Rounding of the gradient in pixels
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#gradient)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#gradient)
 function render.gradient(position_a, position_b, top_left, top_right, bottom_left, bottom_right, rounding) end
 
 ---
@@ -276,7 +276,7 @@ function render.gradient(position_a, position_b, top_left, top_right, bottom_lef
 ---@param start_deg number # `0` is the right side, `90` is the bottom, `180` is the left, `270` is the top
 ---@param pct number # Percentage in the range [0.0-1.0] determining how full the circle is
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#circle)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#circle)
 function render.circle(position, color, radius, start_deg, pct) end
 
 ---
@@ -287,7 +287,7 @@ function render.circle(position, color, radius, start_deg, pct) end
 ---@param pct number # Percentage in the range [0.0-1.0] determining how full the circle is
 ---@param thickness? number # Optional. Thickness of the outline in pixels
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#circle_outline)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#circle_outline)
 function render.circle_outline(position, color, radius, start_deg, pct, thickness) end
 
 ---
@@ -298,7 +298,7 @@ function render.circle_outline(position, color, radius, start_deg, pct, thicknes
 ---@param start_deg number # `0` is the right side, `90` is the bottom, `180` is the left, `270` is the top
 ---@param pct number # Percentage in the range [0.0-1.0] determining how full the circle is
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#circle_gradient)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#circle_gradient)
 function render.circle_gradient(position, color_outer, color_inner, radius, start_deg, pct) end
 
 ---
@@ -309,7 +309,7 @@ function render.circle_gradient(position, color_outer, color_inner, radius, star
 ---@param pct number # Percentage in the range [0.0-1.0] determining how full the circle is
 ---@param outline? boolean # Optional. Render the circle outline
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#circle_3d)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#circle_3d)
 function render.circle_3d(position, color, radius, start_deg, pct, outline) end
 
 ---
@@ -320,7 +320,7 @@ function render.circle_3d(position, color, radius, start_deg, pct, outline) end
 ---@param pct number # Percentage in the range [0.0-1.0] determining how full the circle is
 ---@param thickness? number # Thickness of the outline in pixels
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#circle_3d_outline)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#circle_3d_outline)
 function render.circle_3d_outline(position, color, radius, start_deg, pct, thickness) end
 
 ---
@@ -331,7 +331,7 @@ function render.circle_3d_outline(position, color, radius, start_deg, pct, thick
 ---@param start_deg number # `0` is the right side, `90` is the bottom, `180` is the left, `270` is the top
 ---@param pct number # Percentage in the range [0.0-1.0] determining how full the circle is
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#circle_3d_gradient)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#circle_3d_gradient)
 function render.circle_3d_gradient(position, color_outer, color_inner, radius, start_deg, pct) end
 
 ---
@@ -344,7 +344,7 @@ function render.circle_3d_gradient(position, color_outer, color_inner, radius, s
 ---@param text any # Text that will be drawn
 ---@param ... any # Comma-separated vectors to concatenate with `text`
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#text)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#text)
 function render.text(font, position, color, flags, text, ...) end
 
 ---
@@ -355,7 +355,7 @@ function render.text(font, position, color, flags, text, ...) end
 ---@param mode? "f" | "r" # Optional. `f` for fill, `r` for repeat
 ---@param rounding? number # Optional. Roundness of the texture
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#texture)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#texture)
 function render.texture(texture, position, size, color, mode, rounding) end
 
 ---
@@ -363,13 +363,13 @@ function render.texture(texture, position, size, color, mode, rounding) end
 ---
 ---@param degrees number # Rotation degrees (0 - 360)
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#push_rotation)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#push_rotation)
 function render.push_rotation(degrees) end
 
 ---
 ---Discards an early set rotation.
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#pop_rotation)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#pop_rotation)
 function render.pop_rotation() end
 
 ---
@@ -379,13 +379,13 @@ function render.pop_rotation() end
 ---@param pos_b vector_object # Screen position of point B
 ---@param intersect? boolean # Optional. Allow intersections with other clip regions
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#push_clip_rect)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#push_clip_rect)
 function render.push_clip_rect(pos_a, pos_b, intersect) end
 
 ---
 ---Discards an early set rectangle clipping region.
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#pop_clip_rect)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#pop_clip_rect)
 function render.pop_clip_rect() end
 
 ---
@@ -398,7 +398,7 @@ function render.pop_clip_rect() end
 ---@param offset? number # Shadow offset
 ---@param rounding? number # The rounding of the shadow rectangle
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/render#shadow)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#shadow)
 function render.shadow(pos_a, pos_b, clr, thickness, offset, rounding) end
 
 return render

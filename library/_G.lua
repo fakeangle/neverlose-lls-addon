@@ -24,7 +24,7 @@ _NAME = "Script"
 ---@param text string # Text to print into the console.
 ---@param ... any # Optional arguments to concatenate with `text`.
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/_g#print_error)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/_g#print_error)
 function print_error(text, ...) end
 
 ---
@@ -33,7 +33,7 @@ function print_error(text, ...) end
 ---@param text string # Text to print into the in-game chat.
 ---@param ... any # Optional arguments to concatenate with `text`.
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/_g#print_chat)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/_g#print_chat)
 function print_chat(text, ...) end
 
 ---
@@ -43,7 +43,7 @@ function print_chat(text, ...) end
 ---@param text string # Text to print into the console.
 ---@param ... any # Optional arguments to concatenate with `text`.
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/_g#print_raw)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/_g#print_raw)
 function print_raw(text, ...) end
 
 ---
@@ -52,7 +52,7 @@ function print_raw(text, ...) end
 ---@param text string # Text to print to into the upper-left console panel.
 ---@param ... any # Optional arguments to concatenate with `text`.
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/_g#print_dev)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/_g#print_dev)
 function print_dev(text, ...) end
 
 ---
@@ -62,7 +62,7 @@ function print_dev(text, ...) end
 ---@return number ticks
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/_g#to_ticks)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/_g#to_ticks)
 function to_ticks(time) end
 
 ---
@@ -72,12 +72,12 @@ function to_ticks(time) end
 ---@return number time
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/_g#to_time)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/_g#to_time)
 function to_time(ticks) end
 
 ---Creates the new class.
 ---
 ---@return table # An instance of the new class with defined structures.
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/_g#new_class)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/_g#new_class)
 function new_class() end

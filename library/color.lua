@@ -15,7 +15,7 @@ local color_object = {}
 ---@return color_object color
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/color)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/color)
 function color(r, g, b, a) end
 
 ---
@@ -23,7 +23,7 @@ function color(r, g, b, a) end
 ---@return color_object color
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/color)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/color)
 function color(value) end
 
 ---
@@ -32,7 +32,7 @@ function color(value) end
 ---@return color_object color
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/color#clone)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/color#clone)
 function color_object:clone() end
 
 ---
@@ -45,7 +45,7 @@ function color_object:clone() end
 ---@return color_object color
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/color#init)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/color#init)
 function color_object:init(r, g, b, a) end
 
 ---
@@ -55,7 +55,7 @@ function color_object:init(r, g, b, a) end
 ---@return color_object color
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/color#init)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/color#init)
 function color_object:init(value) end
 
 ---
@@ -68,7 +68,7 @@ function color_object:init(value) end
 ---@return color_object color
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/color#as_fraction)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/color#as_fraction)
 function color_object:as_fraction(r, g, b, a) end
 
 ---
@@ -78,7 +78,7 @@ function color_object:as_fraction(r, g, b, a) end
 ---@return color_object color
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/color#as_int32)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/color#as_int32)
 function color_object:as_int32(value) end
 
 ---
@@ -91,7 +91,7 @@ function color_object:as_int32(value) end
 ---@return color_object color
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/color#as_hsv)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/color#as_hsv)
 function color_object:as_hsv(h, s, v, a) end
 
 ---
@@ -104,7 +104,7 @@ function color_object:as_hsv(h, s, v, a) end
 ---@return color_object color
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/color#as_hsl)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/color#as_hsl)
 function color_object:as_hsl(h, s, l, a) end
 
 ---
@@ -113,7 +113,7 @@ function color_object:as_hsl(h, s, l, a) end
 ---@return [number, number, number, number]
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/color#to_fraction)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/color#to_fraction)
 function color_object:to_fraction() end
 
 ---
@@ -122,7 +122,7 @@ function color_object:to_fraction() end
 ---@return string
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/color#to_hex)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/color#to_hex)
 function color_object:to_hex() end
 
 ---
@@ -131,7 +131,7 @@ function color_object:to_hex() end
 ---@return number
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/color#to_int32)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/color#to_int32)
 function color_object:to_int32() end
 
 ---
@@ -140,7 +140,7 @@ function color_object:to_int32() end
 ---@return [number, number, number]
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/color#to_hsv)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/color#to_hsv)
 function color_object:to_hsv() end
 
 ---
@@ -149,7 +149,7 @@ function color_object:to_hsv() end
 ---@return [number, number, number]
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/color#to_hsl)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/color#to_hsl)
 function color_object:to_hsl() end
 
 ---
@@ -160,7 +160,7 @@ function color_object:to_hsl() end
 ---@return color_object color
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/color#lerp)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/color#lerp)
 function color_object:lerp(other, weight) end
 
 ---
@@ -170,7 +170,7 @@ function color_object:lerp(other, weight) end
 ---@return color_object color
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/color#grayscale)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/color#grayscale)
 function color_object:grayscale(weight) end
 
 ---
@@ -180,7 +180,7 @@ function color_object:grayscale(weight) end
 ---@return color_object color
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/color#alpha_modulate)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/color#alpha_modulate)
 function color_object:alpha_modulate(alpha) end
 
 ---
@@ -189,7 +189,7 @@ function color_object:alpha_modulate(alpha) end
 ---@return [number, number, number, number]
 ---@nodiscard
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/color#unpack)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/color#unpack)
 function color_object:unpack() end
 
 return color_object

@@ -13,7 +13,7 @@ math = {}
 ---@param max? number # The maximum value
 ---@return number
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/math#clamp)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/math#clamp)
 function math.clamp(value, min, max) end
 
 ---
@@ -27,7 +27,7 @@ function math.clamp(value, min, max) end
 ---@param should_clamp? boolean # Clamp `In` range
 ---@return number
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/math#clamp)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/math#clamp)
 function math.map(value, in_from, in_to, out_from, out_to, should_clamp) end
 
 ---
@@ -36,7 +36,7 @@ function math.map(value, in_from, in_to, out_from, out_to, should_clamp) end
 ---@param x number # Number
 ---@return number
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/math#normalize_yaw)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/math#normalize_yaw)
 function math.normalize_yaw(x) end
 
 return math

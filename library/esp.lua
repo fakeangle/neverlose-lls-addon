@@ -24,7 +24,7 @@ esp = {}
 ---@param callback function # Function that will be called for each entity while drawing the ESP
 ---@return esp_group ESPGroup
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/esp#new_text)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/esp#new_text)
 function esp_class:new_text(name, preview, callback) end
 
 ---
@@ -34,7 +34,7 @@ function esp_class:new_text(name, preview, callback) end
 ---@param callback function # Function that will be called for each entity while drawing the ESP
 ---@return esp_group ESPGroup
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/esp#new_bar)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/esp#new_bar)
 function esp_class:new_bar(name, callback) end
 
 ---
@@ -43,7 +43,7 @@ function esp_class:new_bar(name, callback) end
 ---@param name string # ESP element picker text
 ---@return esp_group ESPGroup
 ---
----[View documents](https://lua.neverlose.cc/documentation/variables/esp#new_item)
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/esp#new_item)
 function esp_class:new_item(name) end
 
 return esp
