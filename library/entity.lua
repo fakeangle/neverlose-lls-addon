@@ -640,7 +640,6 @@ function entity.get_local_player() end
 ---@param include_dormant? boolean # If `true` then dormant players will be included
 ---@param callback? function # A callback with an entity pointer as the argument
 ---@return { [number]: ent } players
----@nodiscard
 ---
 ---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/entity#get_players)
 function entity.get_players(enemies_only, include_dormant, callback) end
