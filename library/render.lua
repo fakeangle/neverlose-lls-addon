@@ -162,12 +162,12 @@ function render.load_image_rgba(contents, size) end
 function render.load_image_from_file(path, size) end
 
 ---
----Returns the `ImgObject` struct or nil on failure. Supports JPG, PNG, BMP, SVG, and GIF formats.
+---Returns the measured size of the text.
 ---
 ---@param font font_object | neverlose_font # Font object or `1` for `Default` font, `2` for `Small` font, `3` for `Console` font, or `4` for `Bold` font
 ---@param flags? "s" # Optional. `s` for DPI scaled text
 ---@param text string # Text that will be measured
----@return image_object
+---@return vector_object
 ---@nodiscard
 ---
 ---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#measure_text)
