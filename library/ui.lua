@@ -71,6 +71,16 @@ local menu_item = {}
 function menu_item:get() end
 
 ---
+---Returns the value of the menu item.
+---
+---@param index number
+---@return any
+---@nodiscard
+---
+---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/ui#get)
+function menu_item:get(index) end
+
+---
 ---Returns the unique id of the menu item.
 ---
 ---@return number
