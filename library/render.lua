@@ -198,7 +198,7 @@ function render.get_scale(type) end
 ---@param position_b vector_object # End position
 ---@param strength number # Blur strength
 ---@param alpha number # Alpha percentage in the range [0.0, 1.0]
----@param rounding number # Optional. Rounding of the blur rectangle in pixels
+---@param rounding? number # Optional. Rounding of the blur rectangle in pixels
 ---
 ---[View documents](https://docs-csgo.neverlose.cc/documentation/variables/render#blur)
 function render.blur(position_a, position_b, strength, alpha, rounding) end
